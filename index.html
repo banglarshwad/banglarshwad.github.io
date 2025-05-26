@@ -1,128 +1,81 @@
-
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Banglar Shwad বাংলার স্বাদ</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali&family=Playfair+Display&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
     body {
       font-family: 'Playfair Display', serif;
       background-color: #fdfaf6;
+      margin: 0;
+      padding: 0;
       color: #2d2d2d;
-      line-height: 1.6;
     }
     header {
       background-color: #5e3023;
-      color: #fff;
-      padding: 2rem;
+      color: white;
       text-align: center;
+      padding: 2rem;
     }
     header h1 {
-      font-size: 2.5rem;
       font-family: 'Noto Serif Bengali', serif;
-    }
-    header p {
-      font-size: 1.2rem;
+      font-size: 2.5rem;
     }
     nav {
       background-color: #a47148;
-      padding: 0.5rem;
       text-align: center;
+      padding: 1rem;
     }
     nav a {
-      color: #fff;
-      text-decoration: none;
+      color: white;
       margin: 0 1rem;
+      text-decoration: none;
       font-weight: bold;
     }
-    section {
-      padding: 3rem 1rem;
-      max-width: 1000px;
+    .content {
+      padding: 2rem;
+      max-width: 900px;
       margin: auto;
-    }
-    .menu-item {
-      background: #fff;
-      border: 1px solid #e0d8cf;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    }
-    .menu-item h4 {
-      margin-bottom: 0.5rem;
-      font-family: 'Noto Serif Bengali', serif;
     }
     footer {
       background-color: #5e3023;
-      color: #fff;
+      color: white;
       text-align: center;
       padding: 1rem;
+      margin-top: 2rem;
+    }
+    .logo {
+      max-width: 120px;
+      margin-bottom: 1rem;
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="logo.png" alt="Banglar Shwad Logo" class="logo" />
     <h1>Banglar Shwad বাংলার স্বাদ</h1>
-    <p>Heartwarming traditional Bengali food, made with love.</p>
+    <p>Traditional and heartwarming Bengali food, made with love.</p>
   </header>
-
   <nav>
-    <a href="#about">About</a>
-    <a href="#menu">Menu</a>
-    <a href="#order">How to Order</a>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Available Dishes</a>
     <a href="#contact">Contact</a>
   </nav>
-
-  <section id="about">
-    <h2>About Us</h2>
+  <div class="content">
+    <h2>Welcome</h2>
     <p>
-      Banglar Shwad (বাংলার স্বাদ) is more than just food — it's emotion. We serve traditional, homemade Bengali meals that carry the taste of our roots, our warmth, and our stories.
-      Whether you're far from home or craving something soulful, we’re here to deliver joy on a plate.
-    </p>
-  </section>
-
-  <section id="menu">
-    <h2>Our Menu</h2>
-    <div class="menu-item">
-      <h4>Shada Bhaat & Shorshe Ilish</h4>
-      <p>Steamed rice with Hilsa in mustard gravy — a true Bengali delicacy.</p>
-    </div>
-    <div class="menu-item">
-      <h4>Kosha Mangsho & Luchi</h4>
-      <p>Spiced mutton curry served with fluffy fried flatbreads.</p>
-    </div>
-    <div class="menu-item">
-      <h4>Begun Bharta & Dal</h4>
-      <p>Mashed eggplant with mustard oil, garlic, and lentils — simple, nostalgic, perfect.</p>
-    </div>
-  </section>
-
-  <section id="order">
-    <h2>How to Order</h2>
-    <p>
-      To place an order, simply email us at: <strong>salmaakterruma104@gmail.com</strong><br>
-      We’ll get back to you quickly with availability and delivery/pickup details.
+      Banglar Shwad (বাংলার স্বাদ) is your destination for soulful Bengali food. Every dish is prepared with care to bring the warmth of home and heritage to your plate.
     </p>
     <p>
-      Follow us on social media to see daily specials and customer favorites!
+      Explore our <a href="menu.html">menu</a> to place your order today!
     </p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:salmaakterruma104@gmail.com">salmaakterruma104@gmail.com</a></p>
-    <p>Serving with heart from our kitchen to yours.</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Banglar Shwad বাংলার স্বাদ. All rights reserved.</p>
+  </div>
+  <footer id="contact">
+    <p>Contact us on WhatsApp: <strong>+8801728549593</strong></p>
+    <p>Email for inquiries: <a href="mailto:salmaakterruma104@gmail.com">salmaakterruma104@gmail.com</a></p>
+    <p>Visit our Facebook page: <a href="https://www.facebook.com/share/1HUVceS6gh/" target="_blank">Banglar Shwad</a></p>
+    <p>&copy; 2025 Banglar Shwad. All rights reserved.</p>
   </footer>
 </body>
 </html>
